@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:5050/api";
+const baseUrl = "https://crud-backend-fckh.onrender.com/api";
 
 let myData;
 
