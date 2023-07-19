@@ -83,7 +83,7 @@ const editTask = (e) => {
 
     fetch(updateUrl, {
         method: 'PUT',
-        body: JSON.stringify(myId, { task: updatedData }),
+        body: JSON.stringify({ task: updatedData }),
         headers: {
             'Content-Type': 'application/json'
         }
