@@ -90,6 +90,7 @@ const editTask = (e) => {
     })
         .then(response => response.json())
         .then(() => {
+            console.log("Edited Successfully")
             input.value = '';
             document.querySelector('.add').classList.remove("hide");
             document.querySelector('.edit').classList.add("hide");
